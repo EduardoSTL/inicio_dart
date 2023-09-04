@@ -12,7 +12,7 @@ void main(){
   print('Set: 0 ${reversedNumbers.toSet()}');
 
   final numbersGreaterThanS = numbers.where((int num) {
-    return num > 9; //true
+    return num > 5; //true
   });
   print('>5 iterable $numbersGreaterThanS');
   print('>5 set ${numbersGreaterThanS.toSet()}');
